@@ -30,14 +30,12 @@ fn main() {
         //print!("\x1b[0G\x1b[10C"); // set to 0 then to right by 10
         //print!("\x1b[10C"); // move to right by 10
 
-        //let input = io::stdin().read_line().ok().expect("Failed to read line");
+        //let input = io::stdin().read_line().ok().expect("Failed to readline");
 
         // Loop over `input` and search for certain characters?
         // not sure what the best way to do this is.
         // Should something trigger every keydown? can I do that?
 
         // print!("\x1b[0G");
-
-        // println!("Program: {}", input);
     }
 }
