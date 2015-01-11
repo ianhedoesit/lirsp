@@ -1,0 +1,9 @@
+[package]
+
+name = "lirsp"
+version = "0.0.1"
+authors = ["Ian Harris <ianhedoesit@gmail.com>"]
+
+[[bin]]
+
+name = "lirsp"

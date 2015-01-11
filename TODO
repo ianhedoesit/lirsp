@@ -1,0 +1,11 @@
+I need to deal with all sorts of messy terminal behavior. I should look at
+ncurses/editline. I just really don't want to try to figure that out.
+  - VT100 codes / ANSI escape sequences
+
+Step 1: Read in arbitrary amount of '(' and ')'.
+Step 2: Ensure that there is an equal number of both.
+Step 3: Ensure a '(' always comes before a ')'.
+Step 4: Proper nesting ['(()) is valid whereas '())(' is not].
+
+IDEA: Use different 'begin'/'end' characters, such as different braces.
+
